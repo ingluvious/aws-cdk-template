@@ -3,6 +3,20 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Custom files to exclude
+# .env
+# komodo.py
+.DS_Store
+
+# Custom folders
+.venv
+
+# CDK Asset staging directory
+.cdk.staging
+cdk.out
+cdk.*
+cdk.json
+
 # User-specific files
 *.rsuser
 *.suo
@@ -26,11 +40,9 @@ x86/
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
-[Aa][Rr][Mm]64[Ee][Cc]/
 bld/
 [Bb]in/
 [Oo]bj/
-[Oo]ut/
 [Ll]og/
 [Ll]ogs/
 
@@ -157,7 +169,6 @@ coverage*.info
 
 # NCrunch
 _NCrunch_*
-.NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
 
@@ -356,9 +367,6 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
-
-# AWS SAM Build and Temporary Artifacts folder
-.aws-sam
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
