@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # Custom files to exclude
-# .env
-# komodo.py
+.env
+komodo.py
 .DS_Store
 
 # Custom folders
