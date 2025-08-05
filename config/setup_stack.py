@@ -1,7 +1,7 @@
 import os
 import aws_cdk as cdk
 from dotenv import load_dotenv
-from env_config import stack_config
+from config.env_config import stack_config
 
 load_dotenv(".env", override=True)
 
